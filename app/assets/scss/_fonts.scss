@@ -1,0 +1,65 @@
+/**
+ * To use this font use these fonts:
+ * @extend <classname>
+ *
+ * .some-example-class {
+ *    @extend .font1-ebold;
+ * }
+ *
+ */
+
+
+//------------------------------------------------------------
+// Font 1: Sans-serif Font
+//------------------------------------------------------------
+//
+
+.font1{
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.font1-light {
+  @extend .font1;
+  font-weight: 300;
+}
+
+.font1-sbold {
+  @extend .font1;
+  font-weight: 600;
+}
+
+.font1-bold {
+  @extend .font1;
+  font-weight: 700;
+}
+
+.font1-ebold {
+  @extend .font1;
+  font-weight: 800;
+}
+
+//------------------------------------------------------------
+// Font 2: Serif Font
+//------------------------------------------------------------
+//
+
+.font2 {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.font2-light {
+  @extend .font2;
+  font-weight: 300;
+}
+
+.font2-bold {
+  @extend .font2;
+  font-weight: 700;
+}
+

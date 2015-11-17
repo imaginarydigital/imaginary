@@ -1,0 +1,207 @@
+/* line 1, ../../app/assets/scss/_base.scss */
+body {
+  margin: 0;
+}
+
+/* line 8, ../../app/assets/scss/_base.scss */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+/**
+ * To use this font use these fonts:
+ * @extend <classname>
+ *
+ * .some-example-class {
+ *    @extend .font1-ebold;
+ * }
+ *
+ */
+/* line 17, ../../app/assets/scss/_fonts.scss */
+.font1, .font1-light, .font1-sbold, .font1-bold, .font1-ebold {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+/* line 24, ../../app/assets/scss/_fonts.scss */
+.font1-light {
+  font-weight: 300;
+}
+
+/* line 29, ../../app/assets/scss/_fonts.scss */
+.font1-sbold {
+  font-weight: 600;
+}
+
+/* line 34, ../../app/assets/scss/_fonts.scss */
+.font1-bold {
+  font-weight: 700;
+}
+
+/* line 39, ../../app/assets/scss/_fonts.scss */
+.font1-ebold {
+  font-weight: 800;
+}
+
+/* line 49, ../../app/assets/scss/_fonts.scss */
+.font2, .font2-light, .font2-bold {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+/* line 56, ../../app/assets/scss/_fonts.scss */
+.font2-light {
+  font-weight: 300;
+}
+
+/* line 61, ../../app/assets/scss/_fonts.scss */
+.font2-bold {
+  font-weight: 700;
+}
+
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/* Toggle Styles */
+/* line 9, ../../app/assets/scss/_sidebar.scss */
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 17, ../../app/assets/scss/_sidebar.scss */
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+/* line 21, ../../app/assets/scss/_sidebar.scss */
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 36, ../../app/assets/scss/_sidebar.scss */
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+/* line 40, ../../app/assets/scss/_sidebar.scss */
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+
+/* line 46, ../../app/assets/scss/_sidebar.scss */
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+/* Sidebar Styles */
+/* line 53, ../../app/assets/scss/_sidebar.scss */
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 62, ../../app/assets/scss/_sidebar.scss */
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+/* line 67, ../../app/assets/scss/_sidebar.scss */
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+/* line 73, ../../app/assets/scss/_sidebar.scss */
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* line 79, ../../app/assets/scss/_sidebar.scss */
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+/* line 84, ../../app/assets/scss/_sidebar.scss */
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+/* line 90, ../../app/assets/scss/_sidebar.scss */
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+/* line 94, ../../app/assets/scss/_sidebar.scss */
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media (min-width: 768px) {
+  /* line 100, ../../app/assets/scss/_sidebar.scss */
+  #wrapper {
+    padding-left: 250px;
+  }
+
+  /* line 104, ../../app/assets/scss/_sidebar.scss */
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+
+  /* line 108, ../../app/assets/scss/_sidebar.scss */
+  #sidebar-wrapper {
+    width: 250px;
+  }
+
+  /* line 112, ../../app/assets/scss/_sidebar.scss */
+  #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+  }
+
+  /* line 116, ../../app/assets/scss/_sidebar.scss */
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+
+  /* line 121, ../../app/assets/scss/_sidebar.scss */
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
